@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -24,21 +25,49 @@
     <nav id="hamburguer-nav">
         <div class="logo">Joane Cunha</div>
         <div class="hamburguer-menu">
-        <div class="hamburguer-icon" onclick="toggleMenu()">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
+            <div class="hamburguer-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
 
-        <div class="menu-links">
-            <li><a href="#about" onclick="toggleMenu()">About</a></li>
-            <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
 
-            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
-        </div>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
         </div>
     </nav>
+    <section id="profile">
+        <div class="section_pic-container">
+            <img src="./assets/profile-pic.png" alt="John Doe profile picture" />
+        </div>
+        </div>
+
+        <div class="section_text"></div>
+        <p class="section_text">Hello, I'm</p>
+        <h1 class="title">Joane Cunha</h1>
+        <p class="section_text_p2">Frontend Developer</p>
+        <div class="btn-container">
+            <div class="btn btn-color-2" onclick="location.href='./assets/resume-example.pdf'">Download CV</button>
+                </button>
+            </div>
+        </div>
+        <button class="btn-btn-color-1" onclick="location.href='./#contact'"> Contact Info
+        </button>
+        </div>
+        <div id="socials-container">
+            <img src="./assets/linkedin.png" alt="My Linkedin profile" class="icon"
+                onclick="location.href='https:www.linkedin.com/in/joane-cunha-43766a149/'" 
+            />
+            <img src="./assets/github.png" alt="My Github profile" class="icon"
+                onclick="location.href='https:www.github.com/japcunha'" 
+            />
+            </div>
+
+    </section>
     <script src="script.js"></script>
 </body>
 
