@@ -159,3 +159,15 @@ section {
     width: 400px;
     margin: auto 0;
  }
+ .section_text {
+    align-self: center;
+    text-align: center;
+ }
+ .section_text_p1 {
+    font-weight: 600;
+ }
+ .section_text_p1 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+
+ }
